@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitDeclarationOrnek", "ImplicitDeclarationOrnek\ImplicitDeclarationOrnek.csproj", "{8F43A1C0-D4D2-4B87-A2FD-0078D521C42E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F43A1C0-D4D2-4B87-A2FD-0078D521C42E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F43A1C0-D4D2-4B87-A2FD-0078D521C42E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F43A1C0-D4D2-4B87-A2FD-0078D521C42E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F43A1C0-D4D2-4B87-A2FD-0078D521C42E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1172A94-A630-42BF-83B0-0E82D3AE67E8}
+	EndGlobalSection
+EndGlobal
