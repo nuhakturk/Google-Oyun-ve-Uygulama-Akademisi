@@ -6,7 +6,7 @@ namespace Deklerasyon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("1");
+            Console.WriteLine("11");
             Console.ReadLine();
         }
     }
