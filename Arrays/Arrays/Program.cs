@@ -21,9 +21,26 @@ namespace Arrays
             */
 
             string[] siparisNo = {"birinci siparis", "ikinci siparis", "ucuncu siparis"};
+            int[] fiyat = { 250, 300, 700 };
+            int toplamFiyat = 0;
+            int say = 0;
 
             Console.WriteLine(siparisNo[2]);
             Console.WriteLine("Dizi Uzunluğu: " + siparisNo.Length);
+
+            foreach (string siparis in siparisNo)
+            {
+                Console.WriteLine(siparis); //3 kere donecek
+            }
+
+            foreach (var sipFiyat in fiyat)
+            {
+                toplamFiyat += sipFiyat;
+                say++;
+            }
+
+            Console.WriteLine(toplamFiyat + " " + say);
+            
             Console.ReadLine();
         }
     }
