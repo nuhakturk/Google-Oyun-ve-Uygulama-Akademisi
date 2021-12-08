@@ -14,8 +14,9 @@ namespace YeniClassOlusturma
 
             inst.birinci = 10;
             inst.ikinci = 20;
-
             Console.WriteLine(inst.birinci + inst.ikinci);
+            Console.WriteLine(inst.toplama());
+
             Console.ReadLine();
         }
 
@@ -23,6 +24,11 @@ namespace YeniClassOlusturma
         {
             public int birinci;
             public int ikinci;
+
+            public int toplama()
+            {
+                return birinci + ikinci;
+            }
         }
     }
 }
