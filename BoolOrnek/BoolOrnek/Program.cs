@@ -18,6 +18,10 @@ namespace BoolOrnek
             Console.WriteLine(1 == sayi); // False
             Console.WriteLine(1 != sayi); // True
             Console.WriteLine(isim.Contains("Nu")); // True
+            Console.WriteLine(sayi == 6 ? "Nuh" : "Hun"); //Hun
+            Console.WriteLine(sayi == 5 ? "Nuh" : "Hun"); //Nuh
+            Console.WriteLine(sayi >= 5 ? "Nuh" : "Hun"); //Nuh
+            Console.WriteLine(sayi >= 5 ? 1 : 2); //1
             Console.ReadLine();
         }
     }
