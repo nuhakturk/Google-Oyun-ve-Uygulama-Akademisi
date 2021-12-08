@@ -31,22 +31,25 @@ namespace If_Else_ElseIf
             {
                 Console.WriteLine("Büyük Zarar Verdin");
             }
-
-            if (ortalama <= 15 && ortalama > 10)
+            else if (ortalama <= 15 && ortalama > 10)
             {
                 Console.WriteLine("Orta Boyutta Zarar Verdin");
             }
-
-            if (ortalama <= 10 && ortalama > 5)
+            else if (ortalama <= 10 && ortalama > 5)
             {
                 Console.WriteLine("Zarar Yok");
             }
-
-            if (ortalama <= 5)
+            else if (ortalama <= 5 && ortalama > 2)
             {
                 Console.WriteLine("Kendine Zarar Verdin");
             }
+            else
+            {
+                Console.WriteLine("2 den küçük olduğunda çalışacak");
+            }
             Console.WriteLine(ortalama);
+
+            
 
             if (dorduncuAtis >= 18 || besinciAtis >= 18) // false veya false > false döner diğer durumlar true döner!
             {
@@ -54,6 +57,23 @@ namespace If_Else_ElseIf
             }
 
             Console.WriteLine(birinciAtis + " " + ikinciAtis + " " + ucuncuAtis + " " + dorduncuAtis + " " + besinciAtis);
+
+            if (ortalama >= 10)
+            {
+                Console.WriteLine("ortalama 10 un üzerinde");
+                if (birinciAtis > 12)
+                {
+                    Console.WriteLine("Birinci atış 12 nin üzerinde");
+                    if (ikinciAtis > 15)
+                    {
+                        Console.WriteLine("Nested if orneği");
+                    }
+                    else if (ikinciAtis > 12)
+                    {
+                        Console.WriteLine("İkinci atış 12 nin üzerinde");
+                    }
+                }
+            }
             Console.ReadLine();
         }
     }
